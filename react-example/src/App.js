@@ -1,10 +1,11 @@
 import "./App.css";
-import NavBarForm from "./components/NavBarForm";
+import RenderingLists from "./components/RenderingLists";
+
 
 function App() {
   return (
     <div className="App">
-      <NavBarForm />
+      <RenderingLists />
     </div>
   );
 }
