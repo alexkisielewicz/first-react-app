@@ -1,10 +1,10 @@
 import "./App.css";
-import NestingComponents from "./components/NestingComponents";
+import NavBarForm from "./components/NavBarForm";
 
 function App() {
   return (
     <div className="App">
-      <NestingComponents />
+      <NavBarForm />
     </div>
   );
 }
