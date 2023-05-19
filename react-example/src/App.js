@@ -1,10 +1,10 @@
 import "./App.css";
-import NavBarSimple from "./components/NavBarSimple";
+import NestingComponents from "./components/NestingComponents";
 
 function App() {
   return (
     <div className="App">
-      <NavBarSimple />
+      <NestingComponents />
     </div>
   );
 }
