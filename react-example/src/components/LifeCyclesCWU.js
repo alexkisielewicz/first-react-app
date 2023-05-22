@@ -14,11 +14,16 @@ export class LifeCyclesCWU extends Component {
         this.setState((prevState) => ({ visible: !prevState.visible }))
     }
 
+    componentWillUnmount() {
+        console.log("unmounting")
+        window.removeEventListener("mousemove", this.trackMouse)
+    }
+
     render() {
         return (
             <div>
                 {this.state.visible && <LifeCyclesCWUTracker />}
-                <button>Toggle Display</button>
+                <button onClick={this.toggleDisplay}>Toggle Display</button>
             </div>
         )
     }
