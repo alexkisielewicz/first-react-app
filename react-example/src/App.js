@@ -1,12 +1,10 @@
-import css from "./App.module.css";
-import ControlledForm from "./components/ControlledForm";
+import "./App.css";
+import UncontrolledForm from "./components/UncontrolledForm";
 
 function App() {
-  return (
-    <div className={css.App}>
-      <ControlledForm />
-    </div>
-  );
+  return <div className="App">
+      <UncontrolledForm />
+  </div>;
 }
 
 export default App;
